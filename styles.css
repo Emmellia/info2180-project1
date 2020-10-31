@@ -1,4 +1,16 @@
 /* Add your CSS to this file */
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
 body {
     margin: 0;
     font-size: 16px;
@@ -8,4 +20,205 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0;
+    
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    text-align: left;
+    padding:0;
+}
+
+header > a, h1{
+    font-size: 18px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    display: inline;
+    padding: 8px;
+}
+
+  a{
+    color:#6b7280;
+    text-decoration: none;   
+}
+
+li a:hover{
+    color: #5A67D8;
+}
+
+.overview-hero {
+    background-color: #E2E8F0 ;
+    height:35vh ;
+}
+
+.overview-hero-image img{
+    float:left;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.overview-hero-text { 
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 200px;
+}
+.cards{
+    display:grid;
+    column-count: 3;
+    grid-template-columns:auto auto auto;
+    padding-top: 20px;
+    grid-column-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.card img{
+    width: 250px;
+}
+.card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+}
+
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about h3{
+    font-size: 21px;
+    color: #48BB78;
+}
+
+.testing{
+    background-color: #4A5568;
+    height: 35vh;
+    padding-top: 50px;
+}
+
+.testing .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.testing-desciption {
+    color:#ffffff;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.cta .btn{
+    float: right;
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding:8px;
+    width: 120px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+
+.stories h2{
+    padding-top: 80px;
+    padding-bottom: 25px;
+    color:#5A67D8;
+}
+
+.article-body a{
+    color:#5A67D8
+}
+
+.article-body h3{
+    font-size: 18px;
+}
+
+.stories img{
+    border-radius: 50%;
+    float:left;
+    width:250px;
+    height: 250px;
+    padding-right: 80px;
+}
+
+.article-body{
+    padding-bottom: 50px;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color:#ffffff;
+    height: 45vh;
+    text-align: left;
+}
+
+.newsletter .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-top: 50px;
+
+}
+
+.newsletter .btn{
+    background-color: #5A67D8;
+    float: right;
+    margin-left: 10px;
+    padding:10px;
+    width:130px;
+    color: #ffffff;
+}
+
+
+.newsletter p{
+    margin-left: 250px;
+}
+
+form{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.form-group input{
+    width:300px;
+    padding:10px
+ 
+}
+
+
+
+footer{
+    clear: both;
+    background-color: #4A5568;
+    color: #ffffff;
+    height: 10vh;
+    padding-top: 20px;
 }
