@@ -7,10 +7,6 @@
 }
 
 
-
-
-
-
 body {
     margin: 0;
     font-size: 16px;
@@ -40,7 +36,7 @@ header h1{
     padding:0;
 }
 
-header > a, h1{
+header  > a, h1{
     font-size: 18px;
 }
 
@@ -80,26 +76,35 @@ li a:hover{
 
 .overview-hero-text { 
     text-align: left;
-    padding-top: 20px;
-    margin-left: 200px;
+    padding-top: 40px;
+    margin-left: 280px;
 }
 .cards{
     display:grid;
-    column-count: 3;
-    grid-template-columns:auto auto auto;
-    padding-top: 20px;
-    grid-column-gap: 50px;
-    align-content: center;
-    justify-content: center;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-column-gap: 30px;
+    height: 550px;
+    padding-top: 10px;
+    padding-bottom: 30px;    
     
+}
+
+.cards .container{
+    align-items: center;
 }
 
 .card img{
     width: 250px;
+    height:250px
 }
 .card{
+    border-style: solid;
     border-color: #E2E8F0;
     border-radius: 5px;
+    height: 480px;
+    padding:30px;
+    box-shadow:1px 3px #E2E8F0 ;
+   
 }
 
 
@@ -145,7 +150,6 @@ li a:hover{
 }
 
 
-
 .stories h2{
     padding-top: 80px;
     padding-bottom: 25px;
@@ -160,17 +164,21 @@ li a:hover{
     font-size: 18px;
 }
 
-.stories img{
+article img{
     border-radius: 50%;
     float:left;
-    width:250px;
-    height: 250px;
-    padding-right: 80px;
+    width:220px;
+    height: 220px; 
+    padding: 10px;
+    
 }
 
+
 .article-body{
+    margin-left: 300px;
     padding-bottom: 50px;
 }
+
 
 .newsletter {
     background-color: #48BB78;
@@ -212,7 +220,6 @@ form{
     padding:10px
  
 }
-
 
 
 footer{
